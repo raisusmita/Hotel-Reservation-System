@@ -1,0 +1,8 @@
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\bin\Debug\netstandard2.0\HARS.Application.LLBL.deps.json
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\bin\Debug\netstandard2.0\HARS.Application.LLBL.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\bin\Debug\netstandard2.0\HARS.Application.LLBL.pdb
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\obj\Debug\netstandard2.0\HARS.Application.LLBL.BusinessEntities.csprojAssemblyReference.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\obj\Debug\netstandard2.0\HARS.Application.LLBL.BusinessEntities.AssemblyInfoInputs.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\obj\Debug\netstandard2.0\HARS.Application.LLBL.BusinessEntities.AssemblyInfo.cs
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\obj\Debug\netstandard2.0\HARS.Application.LLBL.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.BusinessEntities\obj\Debug\netstandard2.0\HARS.Application.LLBL.pdb

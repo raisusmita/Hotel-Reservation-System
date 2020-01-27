@@ -1,0 +1,14 @@
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.LLBL.SqlServer.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.Model.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.LLBL.SqlServer.pdb
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.LLBL.SqlServer.dll.config
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.csprojAssemblyReference.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.AssemblyInfoInputs.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.AssemblyInfo.cs
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.Service.deps.json
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.Service.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.Service.pdb
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\bin\Debug\netcoreapp3.0\HARS.Application.Model.pdb
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.csproj.CopyComplete
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Susmita\HARS.Application.Service\obj\Debug\netcoreapp3.0\HARS.Application.Service.pdb

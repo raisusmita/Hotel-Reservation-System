@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "HARS.Application.Model/1.0.0": {
+        "runtime": {
+          "HARS.Application.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HARS.Application.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

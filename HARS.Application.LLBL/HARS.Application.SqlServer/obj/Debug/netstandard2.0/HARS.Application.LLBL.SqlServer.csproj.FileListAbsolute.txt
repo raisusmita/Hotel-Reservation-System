@@ -1,0 +1,9 @@
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\bin\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.dll.config
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\bin\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.deps.json
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\bin\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\bin\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.pdb
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\obj\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.csprojAssemblyReference.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\obj\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.AssemblyInfoInputs.cache
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\obj\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.AssemblyInfo.cs
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\obj\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.dll
+C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL\HARS.Application.SqlServer\obj\Debug\netstandard2.0\HARS.Application.LLBL.SqlServer.pdb

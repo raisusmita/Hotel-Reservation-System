@@ -1,0 +1,1030 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.6 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.6" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="false" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="susmita" />
+    <Property Name="ProjectName" Value="HARS.Susmita" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="C:\Users\acer\Desktop\AqoreAssignments-All\Assignment-1\HARS.Application.LLBL" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET Standard 2.0" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="HARS.Application.LLBL" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Netstandard20" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericProjectFileSuffix" Value=".BusinessEntities" Type="18" />
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="HARS.Application.BusinessEntities" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="SqlServer" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value=".SqlServer" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="HARS.Application.SqlServer" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="SpBookingDel" ObjectID="072f9805-d2ea-4f2c-975f-d88b322ac594">
+      <Parameters>
+        <Parameter Name="BookingId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBookingIns" ObjectID="df3caf4a-24d5-4a59-b0d7-6ad8e4cc128b">
+      <Parameters>
+        <Parameter Name="Booking" Type="string" MaxLength="2147483647" />
+        <Parameter Name="BookingId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBookingSel" ObjectID="8d555c19-a960-4d37-aa1f-93ffb42d2c2f">
+      <Parameters>
+        <Parameter Name="BookingId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBookingUpd" ObjectID="a99c959a-1d5c-44a2-9540-533d3e685464">
+      <Parameters>
+        <Parameter Name="Booking" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBranchDel" ObjectID="831cce77-eca2-4e11-aeb9-782d53dbe184">
+      <Parameters>
+        <Parameter Name="BranchId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBranchIns" ObjectID="37b42adf-7776-4499-8027-f26c39baea05">
+      <Parameters>
+        <Parameter Name="Branch" Type="string" MaxLength="2147483647" />
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBranchSel" ObjectID="ccbabb6f-884a-4eca-9dbe-c9d5bc48e925">
+      <Parameters>
+        <Parameter Name="BranchId" Type="int" Precision="10" />
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBranchUpd" ObjectID="e923b74c-0b44-4e99-9a9e-5c39162a65fe">
+      <Parameters>
+        <Parameter Name="Branch" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpCustomerDel" ObjectID="8cffb207-ef28-45f7-bda9-1ab0a5a0762d">
+      <Parameters>
+        <Parameter Name="CustomerId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpCustomerIns" ObjectID="ad4233ae-b835-4e60-93bd-a8ca4071569a">
+      <Parameters>
+        <Parameter Name="Customer" Type="string" MaxLength="2147483647" />
+        <Parameter Name="CustomerId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpCustomerSel" ObjectID="4f9430ec-b8bf-4254-90be-49d5d981f72e">
+      <Parameters>
+        <Parameter Name="CustomerId" Type="int" Precision="10" />
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpCustomerUpd" ObjectID="29213cce-fb01-47ac-942a-2ede06363617">
+      <Parameters>
+        <Parameter Name="Customer" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpHotelDel" ObjectID="c9697bc1-d2f2-4e92-b588-812d604c29f3">
+      <Parameters>
+        <Parameter Name="HotelId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpHotelIns" ObjectID="343327b1-5a83-4f89-bf14-4b3c67a68dde">
+      <Parameters>
+        <Parameter Name="Hotel" Type="string" MaxLength="2147483647" />
+        <Parameter Name="HotelId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpHotelSel" ObjectID="e5202158-250a-4960-bab2-afc3c5cfa00d">
+      <Parameters>
+        <Parameter Name="HotelId" Type="int" Precision="10" />
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpHotelUpd" ObjectID="809856ad-9bfb-4acd-aca4-13381e53cc28">
+      <Parameters>
+        <Parameter Name="Hotel" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpInvoiceDel" ObjectID="0d6309ab-8525-4ba9-bf1e-85d5ddf64f9d">
+      <Parameters>
+        <Parameter Name="InvoiceId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpInvoiceSel" ObjectID="4f41c5c9-e9ea-4d41-a581-42533d2c1181">
+      <Parameters>
+        <Parameter Name="InvoiceId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpReservationDel" ObjectID="5b3c9556-9de0-4d5a-8f32-c50ca739f8f7">
+      <Parameters>
+        <Parameter Name="ReservationId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpReservationIns" ObjectID="460d887c-dbab-4eef-a928-848f556ef9a4">
+      <Parameters>
+        <Parameter Name="Reservation" Type="string" MaxLength="2147483647" />
+        <Parameter Name="ReservationId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpReservationSel" ObjectID="fdeacff3-70ec-4690-803c-167762332eeb">
+      <Parameters>
+        <Parameter Name="ReservationId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpReservationUpd" ObjectID="5bb4b468-9fc5-4024-ac93-7a1dcef43b49">
+      <Parameters>
+        <Parameter Name="Reservation" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpRoomAvailabilitySel" ObjectID="fcae6455-a87f-429c-a11d-c6fcc1a56f1c">
+      <Parameters>
+        <Parameter Name="BranchId" Type="int" Precision="10" />
+        <Parameter Name="EndDate" Type="datetime" />
+        <Parameter Name="StartDate" Type="datetime" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpRoomDel" ObjectID="4b990e21-1f87-47aa-af1b-fda8e844de97">
+      <Parameters>
+        <Parameter Name="RoomId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpRoomIns" ObjectID="fe00e515-3624-43d7-9294-0ade263f9bfd">
+      <Parameters>
+        <Parameter Name="Room" Type="string" MaxLength="2147483647" />
+        <Parameter Name="RoomId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpRoomSel" ObjectID="c08aa425-e485-46f7-8046-e2aba864c16f">
+      <Parameters>
+        <Parameter Name="RoomId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpRoomUpd" ObjectID="39cf3b45-376b-4d89-882a-c65ecc67f515">
+      <Parameters>
+        <Parameter Name="Room" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpSeasonDel" ObjectID="7a2e1e04-b5ba-49a2-91ca-9f7d3c59f126">
+      <Parameters>
+        <Parameter Name="SeasonId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpSeasonIns" ObjectID="e16ea628-18d9-47be-b62b-3fdbfb1068a2">
+      <Parameters>
+        <Parameter Name="Season" Type="string" MaxLength="2147483647" />
+        <Parameter Name="SeasonId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpSeasonSel" ObjectID="14750f66-e3d6-443b-a4f2-962c8182cc7d">
+      <Parameters>
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+        <Parameter Name="SeasonId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpSeasonUpd" ObjectID="21f34aaf-a79b-43a6-bdbd-6c0860f01e49">
+      <Parameters>
+        <Parameter Name="Season" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceCategoryDel" ObjectID="a277b6e6-2200-4e24-8938-3ae7dfd5ed69">
+      <Parameters>
+        <Parameter Name="ServiceCategoryId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceCategoryIns" ObjectID="9a31b8db-c04e-41b1-ad74-50f4484944f0">
+      <Parameters>
+        <Parameter Name="ServiceCategory" Type="string" MaxLength="2147483647" />
+        <Parameter Name="ServiceCategoryId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceCategorySel" ObjectID="f77cdc70-4ae3-4824-b6af-8926b1cb4f74">
+      <Parameters>
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+        <Parameter Name="ServiceCategoryId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceCategoryUpd" ObjectID="701ac7c1-746f-4cd4-b522-f2a33b1871a9">
+      <Parameters>
+        <Parameter Name="ServiceCategory" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceDel" ObjectID="21e08998-2d44-405d-91c5-19d153367848">
+      <Parameters>
+        <Parameter Name="ServiceId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceIns" ObjectID="a256725c-3aaa-4423-a479-3bc42725714d">
+      <Parameters>
+        <Parameter Name="Service" Type="string" MaxLength="2147483647" />
+        <Parameter Name="ServiceId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceSel" ObjectID="78faa97c-0134-4ef5-a501-6c05a088f626">
+      <Parameters>
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+        <Parameter Name="ServiceId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpServiceUpd" ObjectID="54b95f1d-39b9-4b4c-8827-a851ee07625b">
+      <Parameters>
+        <Parameter Name="Service" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpTransactionDel" ObjectID="10af4c12-16a3-4e2b-a565-68d97de40fa8">
+      <Parameters>
+        <Parameter Name="TransactionId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpTransactionIns" ObjectID="5cdde575-242c-4b26-bfdc-385b5fb0c7ab">
+      <Parameters>
+        <Parameter Name="ReservationId" Type="int" Precision="10" />
+        <Parameter Name="TransactionId" Type="int" Precision="10" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpTransactionSel" ObjectID="a649b811-26f8-4cf6-b17f-6d00d34281ad">
+      <Parameters>
+        <Parameter Name="SearchText" Type="string" MaxLength="2147483647" />
+        <Parameter Name="TransactionId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpTransactionUpd" ObjectID="404bc8ba-471b-41d6-8edf-add7d7c4bfc3">
+      <Parameters>
+        <Parameter Name="Transaction" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="DESKTOP-HAIRH0M" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UseWindowsAuthentication" Value="true" />
+        <ConnectionElement Name="UserID" Value="" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="HARS_Susmita">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2019-12-22T08:11:47.6555135Z">
+              <StoredProcedures>
+                <StoredProcedure Name="SpBookingDel">
+                  <Parameters>
+                    <Parameter Name="@BookingId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBookingIns">
+                  <Parameters>
+                    <Parameter Name="@Booking" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@BookingId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBookingSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@BookingId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="BookingId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="BookingDate" Ordinal="2" DbType="4" />
+                        <Field Name="NoOfGuest" Ordinal="3" DbType="8" Precision="10" />
+                        <Field Name="FromDate" Ordinal="4" DbType="4" />
+                        <Field Name="ToDate" Ordinal="5" DbType="4" />
+                        <Field Name="NoOfRoom" Ordinal="6" DbType="8" Precision="10" />
+                        <Field Name="Status" Ordinal="7" DbType="2" />
+                        <Field Name="ServiceId" Ordinal="8" DbType="8" Precision="10" />
+                        <Field Name="CustomerId" Ordinal="9" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBookingUpd">
+                  <Parameters>
+                    <Parameter Name="@Booking" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBranchDel">
+                  <Parameters>
+                    <Parameter Name="@BranchId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="spBranchIns">
+                  <Parameters>
+                    <Parameter Name="@Branch" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@json" Direction="3" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBranchSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@BranchId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="BranchId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="Branch" Ordinal="2" DbType="24" Length="100" />
+                        <Field Name="Contact" Ordinal="3" DbType="24" Length="25" />
+                        <Field Name="Location" Ordinal="4" DbType="24" Length="25" />
+                        <Field Name="HotelId" Ordinal="5" DbType="8" Precision="10" />
+                        <Field Name="Hotel" Ordinal="6" DbType="24" Length="100" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBranchUpd">
+                  <Parameters>
+                    <Parameter Name="@Branch" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpCustomerDel">
+                  <Parameters>
+                    <Parameter Name="@CustomerId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="spCustomerIns">
+                  <Parameters>
+                    <Parameter Name="@Customer" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@CustomerId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpCustomerSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@CustomerId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="CustomerId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="FirstName" Ordinal="2" DbType="24" Length="25" />
+                        <Field Name="MiddleName" Ordinal="3" IsOptional="true" DbType="24" Length="25" />
+                        <Field Name="LastName" Ordinal="4" DbType="24" Length="25" />
+                        <Field Name="Address" Ordinal="5" DbType="24" Length="50" />
+                        <Field Name="Contact" Ordinal="6" DbType="24" Length="25" />
+                        <Field Name="CitizenshipNumber" Ordinal="7" DbType="24" Length="50" />
+                        <Field Name="Nationality" Ordinal="8" DbType="24" Length="25" />
+                        <Field Name="HotelId" Ordinal="9" DbType="8" Precision="10" />
+                        <Field Name="Hotel" Ordinal="10" DbType="24" Length="100" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpCustomerUpd">
+                  <Parameters>
+                    <Parameter Name="@Customer" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpHotelDel">
+                  <Parameters>
+                    <Parameter Name="@HotelId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpHotelIns">
+                  <Parameters>
+                    <Parameter Name="@Hotel" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@HotelId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpHotelSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@HotelId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Hotel" Ordinal="1" DbType="24" Length="100" />
+                        <Field Name="HotelId" Ordinal="2" DbType="8" Precision="10" />
+                        <Field Name="VatNumber" Ordinal="3" DbType="24" Length="25" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpHotelUpd">
+                  <Parameters>
+                    <Parameter Name="@Hotel" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpInvoiceDel">
+                  <Parameters>
+                    <Parameter Name="@InvoiceId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpInvoiceSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@InvoiceId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="InvoiceId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="InvoiceNumber" Ordinal="2" IsOptional="true" DbType="24" Length="15" />
+                        <Field Name="InvoiceDate" Ordinal="3" DbType="4" />
+                        <Field Name="Balance" Ordinal="4" IsOptional="true" DbType="9" Precision="19" Scale="4" />
+                        <Field Name="TotalAmount" Ordinal="5" DbType="9" Precision="19" Scale="4" />
+                        <Field Name="CustomerId" Ordinal="6" DbType="8" Precision="10" />
+                        <Field Name="BranchId" Ordinal="7" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpReservationDel">
+                  <Parameters>
+                    <Parameter Name="@ReservationId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpReservationIns">
+                  <Parameters>
+                    <Parameter Name="@Reservation" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@ReservationId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpReservationSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@ReservationId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="ReservationId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="CheckIn" Ordinal="2" DbType="4" />
+                        <Field Name="CheckOut" Ordinal="3" DbType="4" />
+                        <Field Name="CustomerId" Ordinal="4" DbType="8" Precision="10" />
+                        <Field Name="BookingId" Ordinal="5" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name="RoomId" Ordinal="6" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpReservationUpd">
+                  <Parameters>
+                    <Parameter Name="@Reservation" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpRoomAvailabilitySel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@StartDate" Direction="1" Ordinal="1" DbType="28" />
+                    <Parameter Name="@EndDate" Direction="1" Ordinal="2" DbType="28" />
+                    <Parameter Name="@BranchId" Direction="1" Ordinal="3" DbType="8" Precision="10" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Service" Ordinal="1" IsOptional="true" DbType="24" Length="50" />
+                        <Field Name="BranchId" Ordinal="2" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name="Total Number of room" Ordinal="3" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name="Number of Sold Room" Ordinal="4" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name=" Number of Available Room" Ordinal="5" IsOptional="true" DbType="8" Precision="10" />
+                        <Field Name="Start Date" Ordinal="6" IsOptional="true" DbType="28" />
+                        <Field Name="End Date" Ordinal="7" IsOptional="true" DbType="28" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpRoomDel">
+                  <Parameters>
+                    <Parameter Name="@RoomId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="spRoomIns">
+                  <Parameters>
+                    <Parameter Name="@Room" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@RoomId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpRoomSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@RoomId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="RoomId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="RoomNumber" Ordinal="2" DbType="24" Length="25" />
+                        <Field Name="NoOfBed" Ordinal="3" DbType="8" Precision="10" />
+                        <Field Name="RoomPhone" Ordinal="4" DbType="24" Length="25" />
+                        <Field Name="ServiceId" Ordinal="5" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpRoomUpd">
+                  <Parameters>
+                    <Parameter Name="@Room" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpSeasonDel">
+                  <Parameters>
+                    <Parameter Name="@SeasonId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpSeasonIns">
+                  <Parameters>
+                    <Parameter Name="@Season" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@SeasonId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpSeasonSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@SeasonId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="SeasonId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="Season" Ordinal="2" DbType="24" Length="50" />
+                        <Field Name="SeasonalRate" Ordinal="3" DbType="8" Precision="10" />
+                        <Field Name="StartDate" Ordinal="4" DbType="28" />
+                        <Field Name="EndDate" Ordinal="5" DbType="28" />
+                        <Field Name="ServiceCategoryId" Ordinal="6" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpSeasonUpd">
+                  <Parameters>
+                    <Parameter Name="@Season" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceCategoryDel">
+                  <Parameters>
+                    <Parameter Name="@ServiceCategoryId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="spServiceCategoryIns">
+                  <Parameters>
+                    <Parameter Name="@ServiceCategory" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@ServiceCategoryId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceCategorySel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@ServiceCategoryId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="ServiceCategoryId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="HotelId" Ordinal="2" DbType="8" Precision="10" />
+                        <Field Name="ServiceCategory" Ordinal="3" DbType="24" Length="100" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceCategoryUpd">
+                  <Parameters>
+                    <Parameter Name="@ServiceCategory" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceDel">
+                  <Parameters>
+                    <Parameter Name="@ServiceId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="spServiceIns">
+                  <Parameters>
+                    <Parameter Name="@Service" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                    <Parameter Name="@ServiceId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@ServiceId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="ServiceId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="Service" Ordinal="2" DbType="24" Length="100" />
+                        <Field Name="BasePrice" Ordinal="3" DbType="9" Precision="19" Scale="4" />
+                        <Field Name="BranchId" Ordinal="4" DbType="8" Precision="10" />
+                        <Field Name="ServiceCategoryId" Ordinal="5" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpServiceUpd">
+                  <Parameters>
+                    <Parameter Name="@Service" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpTransactionDel">
+                  <Parameters>
+                    <Parameter Name="@TransactionId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpTransactionIns">
+                  <Parameters>
+                    <Parameter Name="@ReservationId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@TransactionId" Direction="3" Ordinal="2" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpTransactionSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@TransactionId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@SearchText" Direction="1" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="TransactionId" Ordinal="1" DbType="8" Precision="10" />
+                        <Field Name="TransactionDate" Ordinal="2" DbType="4" />
+                        <Field Name="Rate" Ordinal="3" DbType="9" Precision="19" Scale="4" />
+                        <Field Name="Quantity" Ordinal="4" DbType="8" Precision="10" />
+                        <Field Name="TransactionAmount" Ordinal="5" DbType="9" Precision="19" Scale="4" />
+                        <Field Name="ReservationId" Ordinal="6" DbType="8" Precision="10" />
+                        <Field Name="ServiceId" Ordinal="7" DbType="8" Precision="10" />
+                        <Field Name="InvoiceId" Ordinal="8" IsOptional="true" DbType="8" Precision="10" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpTransactionUpd">
+                  <Parameters>
+                    <Parameter Name="@Transaction" Direction="1" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+              </StoredProcedures>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings />
+      <TypedViewMappings />
+      <SPCallMappings>
+        <SPCallMapping SPCallName=":SpBookingDel" TargetName="HARS_Susmita:dbo:SpBookingDel">
+          <FieldMappings>
+            <FieldMapping FieldName="BookingId" TargetFieldName="@BookingId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBookingIns" TargetName="HARS_Susmita:dbo:SpBookingIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Booking" TargetFieldName="@Booking" />
+            <FieldMapping FieldName="BookingId" TargetFieldName="@BookingId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBookingSel" TargetName="HARS_Susmita:dbo:SpBookingSel">
+          <FieldMappings>
+            <FieldMapping FieldName="BookingId" TargetFieldName="@BookingId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBookingUpd" TargetName="HARS_Susmita:dbo:SpBookingUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Booking" TargetFieldName="@Booking" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBranchDel" TargetName="HARS_Susmita:dbo:SpBranchDel">
+          <FieldMappings>
+            <FieldMapping FieldName="BranchId" TargetFieldName="@BranchId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBranchIns" TargetName="HARS_Susmita:dbo:spBranchIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Branch" TargetFieldName="@Branch" />
+            <FieldMapping FieldName="Json" TargetFieldName="@json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBranchSel" TargetName="HARS_Susmita:dbo:SpBranchSel">
+          <FieldMappings>
+            <FieldMapping FieldName="BranchId" TargetFieldName="@BranchId" />
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBranchUpd" TargetName="HARS_Susmita:dbo:SpBranchUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Branch" TargetFieldName="@Branch" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpCustomerDel" TargetName="HARS_Susmita:dbo:SpCustomerDel">
+          <FieldMappings>
+            <FieldMapping FieldName="CustomerId" TargetFieldName="@CustomerId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpCustomerIns" TargetName="HARS_Susmita:dbo:spCustomerIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Customer" TargetFieldName="@Customer" />
+            <FieldMapping FieldName="CustomerId" TargetFieldName="@CustomerId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpCustomerSel" TargetName="HARS_Susmita:dbo:SpCustomerSel">
+          <FieldMappings>
+            <FieldMapping FieldName="CustomerId" TargetFieldName="@CustomerId" />
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpCustomerUpd" TargetName="HARS_Susmita:dbo:SpCustomerUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Customer" TargetFieldName="@Customer" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpHotelDel" TargetName="HARS_Susmita:dbo:SpHotelDel">
+          <FieldMappings>
+            <FieldMapping FieldName="HotelId" TargetFieldName="@HotelId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpHotelIns" TargetName="HARS_Susmita:dbo:SpHotelIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Hotel" TargetFieldName="@Hotel" />
+            <FieldMapping FieldName="HotelId" TargetFieldName="@HotelId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpHotelSel" TargetName="HARS_Susmita:dbo:SpHotelSel">
+          <FieldMappings>
+            <FieldMapping FieldName="HotelId" TargetFieldName="@HotelId" />
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpHotelUpd" TargetName="HARS_Susmita:dbo:SpHotelUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Hotel" TargetFieldName="@Hotel" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpInvoiceDel" TargetName="HARS_Susmita:dbo:SpInvoiceDel">
+          <FieldMappings>
+            <FieldMapping FieldName="InvoiceId" TargetFieldName="@InvoiceId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpInvoiceSel" TargetName="HARS_Susmita:dbo:SpInvoiceSel">
+          <FieldMappings>
+            <FieldMapping FieldName="InvoiceId" TargetFieldName="@InvoiceId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpReservationDel" TargetName="HARS_Susmita:dbo:SpReservationDel">
+          <FieldMappings>
+            <FieldMapping FieldName="ReservationId" TargetFieldName="@ReservationId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpReservationIns" TargetName="HARS_Susmita:dbo:SpReservationIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Reservation" TargetFieldName="@Reservation" />
+            <FieldMapping FieldName="ReservationId" TargetFieldName="@ReservationId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpReservationSel" TargetName="HARS_Susmita:dbo:SpReservationSel">
+          <FieldMappings>
+            <FieldMapping FieldName="ReservationId" TargetFieldName="@ReservationId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpReservationUpd" TargetName="HARS_Susmita:dbo:SpReservationUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Reservation" TargetFieldName="@Reservation" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpRoomAvailabilitySel" TargetName="HARS_Susmita:dbo:SpRoomAvailabilitySel">
+          <FieldMappings>
+            <FieldMapping FieldName="BranchId" TargetFieldName="@BranchId" />
+            <FieldMapping FieldName="EndDate" TargetFieldName="@EndDate" />
+            <FieldMapping FieldName="StartDate" TargetFieldName="@StartDate" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpRoomDel" TargetName="HARS_Susmita:dbo:SpRoomDel">
+          <FieldMappings>
+            <FieldMapping FieldName="RoomId" TargetFieldName="@RoomId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpRoomIns" TargetName="HARS_Susmita:dbo:spRoomIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Room" TargetFieldName="@Room" />
+            <FieldMapping FieldName="RoomId" TargetFieldName="@RoomId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpRoomSel" TargetName="HARS_Susmita:dbo:SpRoomSel">
+          <FieldMappings>
+            <FieldMapping FieldName="RoomId" TargetFieldName="@RoomId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpRoomUpd" TargetName="HARS_Susmita:dbo:SpRoomUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Room" TargetFieldName="@Room" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpSeasonDel" TargetName="HARS_Susmita:dbo:SpSeasonDel">
+          <FieldMappings>
+            <FieldMapping FieldName="SeasonId" TargetFieldName="@SeasonId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpSeasonIns" TargetName="HARS_Susmita:dbo:SpSeasonIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Season" TargetFieldName="@Season" />
+            <FieldMapping FieldName="SeasonId" TargetFieldName="@SeasonId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpSeasonSel" TargetName="HARS_Susmita:dbo:SpSeasonSel">
+          <FieldMappings>
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+            <FieldMapping FieldName="SeasonId" TargetFieldName="@SeasonId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpSeasonUpd" TargetName="HARS_Susmita:dbo:SpSeasonUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Season" TargetFieldName="@Season" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceCategoryDel" TargetName="HARS_Susmita:dbo:SpServiceCategoryDel">
+          <FieldMappings>
+            <FieldMapping FieldName="ServiceCategoryId" TargetFieldName="@ServiceCategoryId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceCategoryIns" TargetName="HARS_Susmita:dbo:spServiceCategoryIns">
+          <FieldMappings>
+            <FieldMapping FieldName="ServiceCategory" TargetFieldName="@ServiceCategory" />
+            <FieldMapping FieldName="ServiceCategoryId" TargetFieldName="@ServiceCategoryId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceCategorySel" TargetName="HARS_Susmita:dbo:SpServiceCategorySel">
+          <FieldMappings>
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+            <FieldMapping FieldName="ServiceCategoryId" TargetFieldName="@ServiceCategoryId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceCategoryUpd" TargetName="HARS_Susmita:dbo:SpServiceCategoryUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="ServiceCategory" TargetFieldName="@ServiceCategory" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceDel" TargetName="HARS_Susmita:dbo:SpServiceDel">
+          <FieldMappings>
+            <FieldMapping FieldName="ServiceId" TargetFieldName="@ServiceId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceIns" TargetName="HARS_Susmita:dbo:spServiceIns">
+          <FieldMappings>
+            <FieldMapping FieldName="Service" TargetFieldName="@Service" />
+            <FieldMapping FieldName="ServiceId" TargetFieldName="@ServiceId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceSel" TargetName="HARS_Susmita:dbo:SpServiceSel">
+          <FieldMappings>
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+            <FieldMapping FieldName="ServiceId" TargetFieldName="@ServiceId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpServiceUpd" TargetName="HARS_Susmita:dbo:SpServiceUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Service" TargetFieldName="@Service" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpTransactionDel" TargetName="HARS_Susmita:dbo:SpTransactionDel">
+          <FieldMappings>
+            <FieldMapping FieldName="TransactionId" TargetFieldName="@TransactionId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpTransactionIns" TargetName="HARS_Susmita:dbo:SpTransactionIns">
+          <FieldMappings>
+            <FieldMapping FieldName="ReservationId" TargetFieldName="@ReservationId" />
+            <FieldMapping FieldName="TransactionId" TargetFieldName="@TransactionId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpTransactionSel" TargetName="HARS_Susmita:dbo:SpTransactionSel">
+          <FieldMappings>
+            <FieldMapping FieldName="SearchText" TargetFieldName="@SearchText" />
+            <FieldMapping FieldName="TransactionId" TargetFieldName="@TransactionId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpTransactionUpd" TargetName="HARS_Susmita:dbo:SpTransactionUpd">
+          <FieldMappings>
+            <FieldMapping FieldName="Transaction" TargetFieldName="@Transaction" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>
